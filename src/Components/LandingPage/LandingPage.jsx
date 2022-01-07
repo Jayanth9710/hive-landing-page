@@ -58,8 +58,8 @@ function LandingPage() {
               </button>
             </div>
           </div>
-          <div className="main container">
-            <div className="col-xs-6 left">
+          <div className="main container-fluid">
+            <div className="col-md-12 col-12 mt-5 left">
               <div className="left-top">
                 <span className="hive-investment">HIVE INVESTMENT</span>
                 <span className="The-best-platform-for-investments">
@@ -89,7 +89,7 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-6">
+            <div className="col-md-20 p-3 right-30 col-12">
               <img className="hive-build" src="hives.gif" />
             </div>
           </div>
