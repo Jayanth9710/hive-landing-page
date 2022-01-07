@@ -1,15 +1,34 @@
 import React from "react";
+import TokenDetails from "../TokenDetails/TokenDetails";
+import "./Tokenamics.css";
 
 function Tokenamics() {
   return (
     <div className="tokenamics__page">
       <section>
-        <div className="tokenamics">
-          <div className="tokenamics__left">
-            <img src="piechart.png" alt="" />
-            <button>Purchase HIVE</button>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-6 left">
+              <div className="img">
+                <img className="pie" src="piechart.png" alt="" />
+              </div>
+              <div className="bttn">
+                <button className="purchase-btn position-relative">
+                  Purchase HIVE{" "}
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+                    <img className="bee-img" src="honeybee.svg" alt="" />
+                  </span>{" "}
+                </button>
+              </div>
+            </div>
+            <div className="col-6 table-div">
+              <div className="table">
+                  <TokenDetails/>
+                  <TokenDetails/>
+                  <TokenDetails/>
+              </div>
+            </div>
           </div>
-          <div className="tokenamics__right"></div>
         </div>
       </section>
     </div>

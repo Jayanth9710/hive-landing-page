@@ -156,8 +156,10 @@ margin-bottom: 0;
 }
 
 .brand{
-    display: flex;
-    margin-left: 1070px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1040px;
 }
 
 .brand > span {
@@ -174,7 +176,7 @@ margin-bottom: 0;
 }
 
 .hive-logo{
-  width: 100px;
+  width: 200px;
   height: 70px;
 }
 

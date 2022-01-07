@@ -45,7 +45,7 @@ function LandingPage() {
           <div className="header-tab">
             <div className="brand-logo ">
               <div className="brand">
-              <img className="hive-logo" src="hivetext.png" alt="" />
+              <img className="hive-logo" src="hive-logo-home.png" alt="" />
               </div>
             </div>
             <div className="login-box ">
