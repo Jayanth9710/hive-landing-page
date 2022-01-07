@@ -7,6 +7,7 @@ function Tokenamics() {
         <div className="tokenamics">
           <div className="tokenamics__left">
             <img src="piechart.png" alt="" />
+            <button>Purchase HIVE</button>
           </div>
           <div className="tokenamics__right"></div>
         </div>
