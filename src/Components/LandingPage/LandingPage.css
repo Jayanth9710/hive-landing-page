@@ -55,6 +55,20 @@
   align-items: center;
 }
 
+.nav__btn:hover{
+  border: solid 1px #fdb813;
+  background-color: rgba(253, 184, 19, 0.21);
+}
+
+.nav__btn_token:hover{
+  border: solid 1px #fdb813;
+  background-color: rgba(253, 184, 19, 0.21);
+}
+.nav__btn_home:hover{
+  border: solid 1px #fdb813;
+  background-color: rgba(253, 184, 19, 0.21);
+}
+
 .tabs {
   display: flex;
   flex-direction: column;
@@ -81,8 +95,6 @@
   margin: 0 0 20px;
   padding: 9px 17px 11px 18px;
   border-radius: 10px;
-  border: solid 1px #fdb813;
-  background-color: rgba(253, 184, 19, 0.21);
   color: white;
   text-align: center;
   font-family: Roboto;
@@ -96,6 +108,9 @@
   flex-direction: column;
   align-items: center;
   color: #fefefe;
+  border: none;
+  background: none;
+  outline: none;
 }
 
 .nav__btn_token {
