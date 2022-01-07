@@ -148,7 +148,7 @@ margin-top: 50px;
 }
 
 .left-top{
-    margin-left: 160px;
+    margin-left: 105px;
     display: flex;
     flex-direction: column;
 padding-top: 50px;
@@ -157,7 +157,7 @@ margin-bottom: 0;
 
 .brand{
     display: flex;
-    margin-left: 1150px;
+    margin-left: 1070px;
 }
 
 .brand > span {
@@ -179,7 +179,7 @@ margin-bottom: 0;
 }
 
 .login-box{
- margin-left: 1100px;   
+ margin-left: 1040px;   
  margin-top: -35px;
 }
 
@@ -299,8 +299,9 @@ margin-bottom: 0;
 .left-bottom{
     display: flex;
     flex-direction: row;
-    margin-left: 130px;
+    margin-left: 105px;
 }
+
 
 .States {
   width: 46px;
