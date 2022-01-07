@@ -21,6 +21,8 @@
       border-radius: 10px;
       font-family: 'Poppins', sans-serif;
       font-size: 11px;
+      margin-left: 15px;
+    margin-right: 15px;
   }
 
   .header > a:hover{
