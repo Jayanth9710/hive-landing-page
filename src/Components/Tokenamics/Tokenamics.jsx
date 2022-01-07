@@ -8,7 +8,7 @@ function Tokenamics() {
       <section>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-6 left">
+            <div className="col-7 left">
               <div className="img">
                 <img className="pie" src="piechart.png" alt="" />
               </div>
@@ -21,7 +21,7 @@ function Tokenamics() {
                 </button>
               </div>
             </div>
-            <div className="col-6 table-div">
+            <div className="col-5 table-div">
               <div className="table">
                   <TokenDetails/>
                   <TokenDetails/>
