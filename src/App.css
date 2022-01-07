@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  flex-grow: 0;
+  background-color: #151025;
 }
 
 .App-logo {

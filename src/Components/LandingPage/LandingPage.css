@@ -1,0 +1,369 @@
+.landing_page {
+  display: table;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  left: auto;
+  height: 100vh;
+  background-color: #020220;
+  width: 7%;
+  padding-left: 10px;
+  width: 100px;
+  height: 1021px;
+  margin: 0 41px 0 0;
+  padding: 111px 17px 112px;
+  background-image: linear-gradient(
+    174deg,
+    #151025 0%,
+    rgba(11, 6, 29, 0.44) 100%
+  );
+}
+
+.header-tab {
+  margin-top: 50px;
+}
+
+.header_row {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav__btn {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  width: 66px;
+  height: 90px;
+  margin: 0 0 20px;
+  padding: 9px 17px 11px 18px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tabs > div > button > p {
+  width: 66px;
+}
+
+.hive__logo {
+  width: 30px !important;
+  height: 30px !important;
+  margin-bottom: 8px;
+}
+
+.nav__home {
+  margin-bottom: 10px;
+}
+
+.nav__btn_home {
+  width: 66px;
+  height: 90px;
+  margin: 0 0 20px;
+  padding: 9px 17px 11px 18px;
+  border-radius: 10px;
+  border: solid 1px #fdb813;
+  background-color: rgba(253, 184, 19, 0.21);
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fefefe;
+}
+
+.nav__btn_token {
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fefefe;
+  border: none;
+  background: none;
+  outline: none;
+  width: 66px;
+  height: 90px;
+  margin: 0 0 20px;
+  padding: 9px 17px 11px 18px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav_use_case {
+  margin-bottom: 10px;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 25px;
+
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.left-top{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.brand{
+    display: flex;
+    margin-left: 1150px;
+}
+
+.brand > span {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.brand > span:first-child{
+    color: #fdb813;
+    font-weight: bold;
+}
+
+.login-box{
+ margin-left: 1100px;   
+}
+
+.signup{
+    background: none;
+    border: none;
+    outline: none;
+    color:#fdb813 ;
+    font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.login{
+    font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f5f6f7;
+  width: 120px;
+  height: 38px;
+  margin: 30px 50px 13.9px 20px;
+  padding: 9px 27px 8px;
+  border: solid 1px #f5f6f7;
+  background: none;
+  outline: none;
+}
+
+.user-icon{
+    margin-right: 5px;
+}
+
+.hive-investment {
+  width: 486px;
+  height: 84px;
+  /* margin: 89px 43px 56px 180.1px; */
+  opacity: 0.53;
+  background-image: linear-gradient(
+    179deg,
+    #fdb813 30%,
+    rgba(253, 184, 19, 0) 61%
+  );
+  font-family: "Poppins";
+  font-size: 56px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.The-best-platform-for-investments {
+  width: 501px;
+  height: 42px;
+  /* margin: 165px 28px 22px 10.1px; */
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f5f6f7;
+}
+.The-best-platform-for-investments .text-style-1 {
+  color: #fdb813;
+  margin-left: 5px;
+}
+
+.The-native-currency-of-Kandyland-KANDY-will-serve-as-a-reserve-currency-backed-by-assets-that-are {
+  width: 378px;
+  height: 63px;
+  margin: 22px 151px 50px 10.1px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(245, 246, 247, 0.5);
+}
+.Rectangle-8 {
+  width: 205px;
+  height: 50px;
+  margin: 50px 2px 232px 10.1px;
+  padding: 13px 30px;
+  border-radius: 10px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f5f6f7;
+}
+
+.left-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+}
+
+.States {
+  width: 46px;
+  height: 21px;
+  /* margin: 356px 139px 109px 1px; */
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb813;
+}
+
+.Years {
+  width: 42px;
+  height: 21px;
+  /* margin: 356px 43px 109px 1px; */
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb813;
+}
+
+.tenyears{
+    margin-left: 10px;
+    margin-right: 10px;
+}  
+
+.Lakh-Customers {
+  width: 60px;
+  height: 42px;
+  /* margin: 335px 36px 109px 1px; */
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb813;
+}
+
+.num {
+  width: 56px;
+  height: 56px;
+  /* margin: 328px 1px 102px 43px; */
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb813;
+}
+
+.sym {
+  width: 8px;
+  height: 16px;
+  /* margin: 343px 77px 127px 1px; */
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb813;
+}
