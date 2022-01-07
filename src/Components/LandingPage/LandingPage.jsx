@@ -1,10 +1,11 @@
 import React from "react";
+import Sidebar from "../Sidebar/Sidebar";
 import "./LandingPage.css";
 
 function LandingPage() {
   return (
     <div className="landing_page">
-      <div className="header">
+      {/* <div className="header">
         <a className="text-center" href="">
           <i class=" text-center text-white fas fa-home"></i>
           <p className="text-center text-white">Home</p>
@@ -37,7 +38,8 @@ function LandingPage() {
           <i class=" text-center text-white fas fa-phone"></i>
           <p className="text-center text-white">Contact us</p>
         </a>
-      </div>
+      </div> */}
+      <Sidebar/>
       <section>
         <div className="container">
           <div className="header-tab">
@@ -56,7 +58,7 @@ function LandingPage() {
               </button>
             </div>
           </div>
-          <div className="main">
+          <div className="main container">
             <div className="col-xs-6 left">
               <div className="left-top">
                 <span className="hive-investment">HIVE INVESTMENT</span>
@@ -88,7 +90,7 @@ function LandingPage() {
               </div>
             </div>
             <div className="col-xs-6">
-              <img className="hive-build" src="Group 55.png" />
+              <img className="hive-build" src="hive-gif.gif" />
             </div>
           </div>
         </div>
