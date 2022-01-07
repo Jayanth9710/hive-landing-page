@@ -13,7 +13,7 @@
   }
   
   .header > a {
-    text-decoration: none;
+    text-decoration: none !important;
       color: #818181;
       display: block;
       transition: 0.3s;
@@ -34,4 +34,8 @@
     text-decoration: none !important;
     border: solid 1px #fdb813;
     background-color: rgba(253, 184, 19, 0.21);
+  }
+
+  .header > p {
+    text-decoration: none !important;
   }

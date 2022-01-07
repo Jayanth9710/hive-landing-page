@@ -25,7 +25,6 @@ function Tokenamics() {
               <div className="table">
                   <TokenDetails/>
                   <TokenDetails/>
-                  <TokenDetails/>
               </div>
             </div>
           </div>

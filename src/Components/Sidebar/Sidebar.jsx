@@ -6,7 +6,7 @@ function Sidebar() {
     return (
         <div>
             <div className="header">
-                <NavLink activeClassName='active-link' to='/'>
+                <NavLink activeClassName='active-link' exact to='/' >
         <a className="text-center" href="">
           <i class=" text-center text-white fas fa-home"></i>
           <p className="text-center text-white">Home</p>
@@ -24,10 +24,12 @@ function Sidebar() {
           <i class=" text-center text-white far fa-list-alt"></i>
           <p className="text-center text-white">Hive Invest</p>
         </a>
+        <NavLink activeClassName='active-link' exact to='/tokenamics' >
         <a className="text-center" href="">
           <i class=" text-center text-white fas fa-chart-pie"></i>
           <p className="text-center text-white">Tokenamics</p>
         </a>
+        </NavLink>
         <a className="text-center" href="">
           <i class=" text-center text-white fas fa-user-friends"></i>
           <p className="text-center text-white">Team</p>

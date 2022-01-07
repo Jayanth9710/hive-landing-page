@@ -18,11 +18,13 @@
 .table{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .table-div{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .left{
