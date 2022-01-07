@@ -5,117 +5,94 @@ function LandingPage() {
   return (
     <div className="landing_page">
       <div className="header">
-        <div className="cotainer">
-          <div className="row header_row">
-            <div className="col-2"></div>
-            <div className="col-8 tabs">
-              <div className="col-3">
-                <button className="nav__btn_home">
-                  <span className="nav__home">
-                    <i class="fas fa-home"></i>
-                  </span>
-                  <p>Home</p>
-                </button>
-                <button className="nav__btn">
-                  <span className="nav_use_case">
-                    <i class="far fa-chart-bar"></i>
-                  </span>
-                  <p>Use Case</p>
-                </button>
-              </div>
-              <div className="col-3">
-                <button className="nav__btn">
-                  <img className="hive__logo" src="hive.JPG"></img>
-                  <p>Hive Feature</p>
-                </button>
-                <button className="nav__btn">
-                  <span className="nav_use_case">
-                    <i class="far fa-list-alt"></i>
-                  </span>
-                  <p>Hive Invest</p>
-                </button>
-              </div>
-              <div className="col-3">
-                <button className="nav__btn_token">
-                  <span className="nav_use_case">
-                    <i class="fas fa-chart-pie"></i>
-                  </span>
-                  <p>Tokenamics</p>
-                </button>
-                <button className="nav__btn">
-                  <span className="nav_use_case">
-                    <i class="fas fa-user-friends"></i>
-                  </span>
-                  Team
-                </button>
-              </div>
-              <div className="col-3">
-                <button className="nav__btn">
-                  <span className="nav_use_case">
-                    <i class="far fa-copy"></i>
-                  </span>
-                  <p>White Paper</p>
-                </button>
-                <button className="nav__btn">
-                  <span className="nav_use_case">
-                    <i class="fas fa-phone"></i>
-                  </span>
-                  <p>Contact Us</p>
-                </button>
-              </div>
-            </div>
-            <div className="col-2"></div>
-          </div>
-        </div>
+        <a className="text-center" href="">
+          <i class=" text-center text-white fas fa-home"></i>
+          <p className="text-center text-white">Home</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white far fa-chart-bar"></i>
+          <p className="text-center text-white">Use case</p>
+        </a>
+        <a className="text-center" href="">
+          <img className="hive__logo" src="hive.JPG"></img>
+          <p className="text-center text-white">Hive feature</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white far fa-list-alt"></i>
+          <p className="text-center text-white">Hive Invest</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white fas fa-chart-pie"></i>
+          <p className="text-center text-white">Tokenamics</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white fas fa-user-friends"></i>
+          <p className="text-center text-white">Team</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white far fa-copy"></i>
+          <p className="text-center text-white">White paper</p>
+        </a>
+        <a className="text-center" href="">
+          <i class=" text-center text-white fas fa-phone"></i>
+          <p className="text-center text-white">Contact us</p>
+        </a>
       </div>
-      <div className="header-tab">
-        <div className="brand-logo">
-            <div className="brand">
-                <span>hive</span>
-                <div className="vl"></div>
-                <span>investments</span>
+      <section>
+        <div className="container">
+          <div className="header-tab">
+            <div className="brand-logo ">
+              <div className="brand">
+              <img className="hive-logo" src="hivetext.png" alt="" />
+              </div>
             </div>
-        </div>
-        <div className="login-box">
-            <button className="signup">Signup</button>
-            <button className="login"><span className="user-icon"><i class="far fa-user"></i></span>Login</button>
-        </div>
-      </div>
-      <div className="main">
-        <div className="col-xs-6 left">
-          <div className="left-top">
-            <span className="hive-investment">HIVE INVESTMENT</span>
-            <span className="The-best-platform-for-investments">
-              The best platform for
-              <span className="text-style-1">investments</span>
-            </span>
-            <span className="The-native-currency-of-Kandyland-KANDY-will-serve-as-a-reserve-currency-backed-by-assets-that-are">
-              The native currency of Kandyland, $KANDY will serve as a reserve
-              currency backed by assets that are owned
-            </span>
-            <div className="Rectangle-8">START INVESTING</div>
+            <div className="login-box ">
+              <button className="signup">Signup</button>
+              <button className="login">
+                <span className="user-icon">
+                  <i class="far fa-user"></i>
+                </span>
+                Login
+              </button>
+            </div>
           </div>
-          <div className="left-bottom">
-            <div className="customers">
-              <span className="num">1</span>
-              <span class="Lakh-Customers">Lakh Customers</span>
+          <div className="main">
+            <div className="col-xs-6 left">
+              <div className="left-top">
+                <span className="hive-investment">HIVE INVESTMENT</span>
+                <span className="The-best-platform-for-investments">
+                  The best platform for
+                  <span className="text-style-1">investments</span>
+                </span>
+                <span className="The-native-currency-of-Kandyland-KANDY-will-serve-as-a-reserve-currency-backed-by-assets-that-are">
+                  The native currency of Kandyland, $KANDY will serve as a
+                  reserve currency backed by assets that are owned
+                </span>
+                <div className="Rectangle-8">START INVESTING</div>
+              </div>
+              <div className="left-bottom">
+                <div className="customers">
+                  <span className="num">1</span>
+                  <span class="Lakh-Customers">Lakh Customers</span>
+                </div>
+                <div className="tenyears">
+                  <span className="num">10</span>
+                  <span className="sym">+</span>
+                  <span class="Years">Years</span>
+                </div>
+                <div className="tenstates">
+                  <span className="num">10</span>
+                  <span className="sym">+</span>
+                  <span class="States">States</span>
+                </div>
+              </div>
             </div>
-            <div className="tenyears">
-              <span className="num">10</span>
-              <span className="sym">+</span>
-              <span class="Years">Years</span>
-            </div>
-            <div className="tenstates">
-              <span className="num">10</span>
-              <span className="sym">+</span>
-              <span class="States">States</span>
+            <div className="col-xs-6">
+              <img className="hive-build" src="Group 55.png" />
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <img src="Group 55.png" />
-        </div>
-      </div>
+      </section>
     </div>
   );
 }

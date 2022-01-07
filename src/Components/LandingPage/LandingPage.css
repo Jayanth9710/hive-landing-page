@@ -4,25 +4,33 @@
 }
 
 .header {
-  position: absolute;
-  left: auto;
-  height: 100vh;
-  background-color: #020220;
-  width: 7%;
-  padding-left: 10px;
-  width: 100px;
-  height: 1021px;
-  margin: 0 41px 0 0;
-  padding: 111px 17px 112px;
-  background-image: linear-gradient(
-    174deg,
-    #151025 0%,
-    rgba(11, 6, 29, 0.44) 100%
-  );
+  height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    background-image: linear-gradient(174deg, #151025 0%, rgba(11, 6, 29, 0.44) 100%);
+}
+
+.header > a {
+  text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    padding: 8px 2px;
+    border-radius: 10px;
+}
+
+.header > a:hover{
+  border: solid 1px #fdb813;
+  background-color: rgba(253, 184, 19, 0.21);
 }
 
 .header-tab {
-  margin-top: 50px;
+  position: absolute;
+  top: 0;
 }
 
 .header_row {
@@ -31,42 +39,21 @@
   font-family: "Roboto", sans-serif;
 }
 
-.nav__btn {
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  width: 66px;
-  height: 90px;
-  margin: 0 0 20px;
-  padding: 9px 17px 11px 18px;
-  border-radius: 10px;
-  font-family: Roboto;
-  font-size: 11px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fefefe;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container{
+  height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.nav__btn:hover{
-  border: solid 1px #fdb813;
-  background-color: rgba(253, 184, 19, 0.21);
-}
-
-.nav__btn_token:hover{
-  border: solid 1px #fdb813;
-  background-color: rgba(253, 184, 19, 0.21);
-}
-.nav__btn_home:hover{
-  border: solid 1px #fdb813;
-  background-color: rgba(253, 184, 19, 0.21);
+section{
+  height: 100vh;
+  overflow: hidden;
+  padding-left: 80px;
 }
 
 .tabs {
@@ -152,16 +139,15 @@
 }
 
 .left {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-evenly;
+margin-top: 50px;
 }
 
 .left-top{
     margin-left: 160px;
     display: flex;
     flex-direction: column;
-
+padding-top: 50px;
+margin-bottom: 0;
 }
 
 .brand{
@@ -182,8 +168,14 @@
     font-weight: bold;
 }
 
+.hive-logo{
+  width: 100px;
+  height: 70px;
+}
+
 .login-box{
  margin-left: 1100px;   
+ margin-top: -35px;
 }
 
 .signup{
@@ -381,4 +373,11 @@
   letter-spacing: normal;
   text-align: left;
   color: #fdb813;
+}
+
+.hive-build{
+  height: 700px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
