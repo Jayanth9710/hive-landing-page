@@ -90,7 +90,7 @@ function LandingPage() {
               </div>
             </div>
             <div className="col-xs-6">
-              <img className="hive-build" src="hive-gif.gif" />
+              <img className="hive-build" src="hives.gif" />
             </div>
           </div>
         </div>
